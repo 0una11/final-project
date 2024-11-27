@@ -1,0 +1,88 @@
+.recipe-container {
+  padding: 20px;
+}
+
+.recipe-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* Space between items */
+}
+
+.video-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.video-container iframe {
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-thumbnail {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.recipe-image {
+  width: 500px;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.recipe-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc; /* Optional border for recipe items */
+  padding: 10px; /* Padding inside recipe items */
+  border-radius: 10px; /* Rounded corners */
+  transition: transform 0.3s; /* Animation for hover effect */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.recipe-item:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.recipe-details {
+  padding: 20px; /* Padding for recipe details */
+  text-align: center;
+}
+
+h1 {
+  text-align: center; /* Center align main title */
+}
+
+h2 {
+  color: #333; /* Color for recipe names */
+}
+
+h3 {
+  margin-top: 10px; /* Space above ingredients/instructions titles */
+}
+
+ul {
+  list-style-type: disc; /* Default bullet style */
+  padding-left: 20px; /* Padding for the list */
+}
+
+button {
+  margin-top: 15px; /* Space above the button */
+  padding: 10px 15px; /* Button padding */
+  background-color: #28a745; /* Green background */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 15px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Animation for hover effect */
+}
+
+button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
